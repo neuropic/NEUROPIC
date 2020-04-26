@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEUROPIC</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center;color:yellowgreen;">WELCOME TO NEUROPIC</h1>
+   
+    <form action="{{url_for('recommend')}}" method="POST" enctype="multipart/form-data" align='center'>
+        
+        <p>
+            <h3 style="color: darkslategrey;">SELECT YOUR PICTURE TO GET NEUROPIC :</h3>
+        <br>
+        <br>
+           <input type="file" name="cimage">
+        <br>
+        <br>
+        <input type="submit" value="NEUROPIC">
+        </p>
+        
+
+    </form>
+
+</body>
+
+</html>
